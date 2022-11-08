@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "stylelint": "stylelint ./src/**/*.{css,js,jsx,ts,tsx}"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -17,6 +18,7 @@
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
+    "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^2.2.0",
     "postcss-syntax": "^0.36.2",
     "stylelint": "^14.14.1",
