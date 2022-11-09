@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 type Props = {};
 
 export const ComponenForStylelint: React.FC<Props> = ({ ...props }) => {
-  return <></>;
+  return <StyledWrap {...props}>stylelint!</StyledWrap>;
 };
 
 const StyledWrap = styled.div`
